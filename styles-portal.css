@@ -1,0 +1,208 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-size: 62.5%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-color: #FFFFFF;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-size: 1.4rem;
+}
+
+img {
+	display: inline;
+}
+
+a:link, a:visited {
+	transition: background-color 1s;
+	-webkit-transition: background-color 1s;
+}
+
+a:hover, a:active {
+	background-color: rgba(255,255,255,.25);
+}
+
+.wrapper {
+	height: 100%;
+	width: 99%;
+	max-width: 1250px;
+	margin: 0 auto;
+	font-size: 0;
+}
+
+.tile {
+	margin: 0.5% 0%;
+	height: 25%;
+	min-height: 100px;
+	display: block;
+}
+
+.tile-one {
+	width: 100%;
+}
+
+.tile-two {
+	width: 100%;
+}
+
+.guppygamedrop {
+	background-color: #c61818;
+	background-image: url(../images-portal/logo_GameDropTile.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	color: #FFFFFF;
+}
+
+.diddydollars {
+	background-color: #FFCC00;
+	background-image: url(../images-portal/logo_diddydollars.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+.guppydirect {
+	background-color: #003399;
+	background-image: url(../images-portal/logo_guppydirect.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+.guppygames {
+	background-color: #CC3333;
+	background-image: url(../images-portal/logo_guppygames.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+.appdango {
+	background-color: #330066;
+	background-image: url(../images-portal/appdangoSiteLogo.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+.guppygo {
+	background-color: #669900;
+	background-image: url(../images-portal/logo_guppygo.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	color: #FFFFFF;
+}
+
+.guppymedia {
+	background-color: #FF9900;
+	background-image: url(../images-portal/logo_guppymedia.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+.installerator {
+	background-color: #000000;
+	background-image: url(../images-portal/logo_installerator.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	color: #FFFFFF;
+}
+
+.joydesk {
+	background-color: #3399FF;
+	background-image: url(../images-portal/logo_joydesk.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+.monkeypoke {
+	background-color: #996633;
+	background-image: url(../images-portal/logo_monkeypoke.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+.reservemyapps {
+	background-color: #EF4041;
+	background-image: url(../images-portal/logo_reservemyapps.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+.guppymo {
+	background-color: #ffcc00;
+	background-image: url(../images-portal/logo_guppyMoTile.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+footer {
+	padding: 10px 0px;
+	text-align: right;
+	color: #666666;
+}
+
+footer p {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	font-size: 1.4rem;
+}
+
+.link {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+@media only screen and (min-width: 480px) {
+
+.tile {
+	margin: 0.5%;
+	height: 30%;
+	min-height: 150px;
+	display: inline-block;
+}
+
+.tile-one {
+	width: 24%;
+}
+
+.tile-two {
+	width: 49%;
+}
+
+}
+
+@media only screen and (min-width: 768px) {
+
+.tile {
+	margin: 0.25%;
+}
+
+.tile-one {
+	width: 24.5%;
+}
+
+.tile-two {
+	width: 49.5%;
+}
+
+}
